@@ -1,6 +1,6 @@
 import re
 
-def question1():
+def question2():
     log = open("atoms2.log", 'r')
     if not log:
         print("file log cannot be open")
@@ -22,4 +22,4 @@ except:
     print("what")
 '''
 
-question1()
+question2()
